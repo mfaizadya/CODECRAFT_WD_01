@@ -1,5 +1,4 @@
 document.addEventListener('DOMContentLoaded', () => {
-    // Scroll effect for navbar
     const handleScroll = () => {
         const navbar = document.querySelector('.navbar');
         if (window.scrollY > 50) {
@@ -11,7 +10,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
     window.addEventListener('scroll', handleScroll);
 
-    // Smooth scroll for navigation
     const smoothScroll = () => {
         document.querySelectorAll('a[href^="#"]').forEach(anchor => {
             anchor.addEventListener('click', function(e) {
